@@ -59,5 +59,4 @@ ahora vamos a comprobar como se ha añadido el tag al commit  que hemos escogido
 
 ![](Images/Screenshot_12.png)
 
-![git clone](Images/Screenshot_2.png)
 

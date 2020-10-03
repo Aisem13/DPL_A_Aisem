@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ##Clonar repositorio
+=======
+##Clonar Repositorio
+>>>>>>> 23c0536d07fb4759d7605a75992bad8c57b1a21d
 
 para clonar un repositorio utilizaremos el siguiente comando:
 
@@ -10,6 +14,7 @@ si el repositorio que queresmos clonar es privado nos pedirá el usuario y la co
 
 Para crear nuestro archivo readme nos iremos a nuestra carpeta y luego ejecutamos el siguiente comando
 
+<<<<<<< HEAD
 ![nano tarea1_1.md](Images/Screenshot_2.png)
 
 ##Hacer commit inicial
@@ -57,3 +62,6 @@ ahora vamos a comprobar como se ha añadido el tag a commit  que hemos escogido
 ![git log](Images/Screenshot_11.png)
 
 ![](Images/Screenshot_12.png)
+=======
+![git clone](Images/Screenshot_2.png)
+>>>>>>> 23c0536d07fb4759d7605a75992bad8c57b1a21d

@@ -1,3 +1,4 @@
+# Trabajando con Git y MarkDown
 
 ## Clonar Repositorio
 
@@ -91,3 +92,130 @@ para seguir un repositorio solo tenemos que clicar en el ojo y elegir watch de e
 |-----------------------------------|--------------------------------|
 | Francisco De Asís Domínguez Iceta | https://github.com/ciscoDIZ    |
 | Enrique Granados Méndez           | https://github.com/enrique1999 |
+
+# Trabajando con Git y MarkDown II
+
+## Crear rama
+
+Para crear una rama hemos de utilizar el siguiente código
+
+![git branch](Images/Screenshot_18.png)
+
+una vez creada la rama tenemos que posicionarnos en ella con él siguiente código
+
+![git checkout](Images/Screenshot_19.png)
+
+## Añadir fichero
+
+una vez creado el fichero solo tendremos que usar el siguiente código para añadirlo
+
+![git add](Images/Screenshot_20.png)
+
+## Crear una rama remota
+
+para crear una rama remota solo tendremos que usar este código 
+
+![git push](Images/Screenshot_21.png)
+
+## Merge directo
+
+para hacer un merge primero hemos de situarnos en la rama master
+
+![git checkout](Images/Screenshot_22.png)
+
+Una vez situados en la rama master procederemos a hacer un merger de las dos ramas usando en siguiente código
+
+![git merge](Images/Screenshot_23.png)
+
+## Merge con conflicto
+
+Vamos a crear en merge con conflicto para echo vamos a modificar en fichero 1.txt desde la ramas master y v0.2, en la rama master pondremos hola y en v0.2 pondremos adios en el mismo fichero
+
+### rama master
+
+modificando fichero 1.txt
+
+![vim 1.txt](Images/Screenshot_24.png)
+
+![](Images/Screenshot_44.png)
+
+añadiendo el fichero y haciendo un comit
+
+![git add](Images/Screenshot_25.png)
+
+![git commit -m](Images/Screenshot_26.png)
+
+### rama v0.2
+
+modificando fichero 1.txt
+
+![vim 1.txt](Images/Screenshot_27.png)
+
+![](Images/Screenshot_45.png)
+
+añadiendo el fichero y haciendo un comit
+
+![git add](Images/Screenshot_28.png)
+
+![git commit -m](Images/Screenshot_29.png)
+
+una vez echo esto aremos el merge
+
+![git commit -m](Images/Screenshot_30.png)
+
+
+## Listar ramas
+
+para listar ramas con merge usamos en siguiete código
+
+![git branch --merge](Images/Screenshot_31.png)
+
+![](Images/Screenshot_32.png)
+
+y para las ramas sin merge este otro
+
+![git branch --no-merge](Images/Screenshot_33.png)
+
+![](Images/Screenshot_34.png)
+
+## Arreglar conflico merge
+
+Lo primero que tenemos que hacer es mirar las diferencias que hay, para ello haremos lo siguiente
+
+![git diff](Images/Screenshot_35.png)
+
+![](Images/Screenshot_36.png)
+
+una vez vista la diferencia hay dos opciones o añadir la palabra adios en master o quitar esa palabra en v0.2, en este caso haremos la primera opción
+
+![vim](Images/Screenshot_37.png)
+
+![](Images/Screenshot_38.png)
+
+luego lo añadimos y hacemos el commit
+
+![git commit -m](Images/Screenshot_39.png)
+
+y ya estamos listo para hacer el merge
+
+![git merge](Images/Screenshot_40.png)
+
+## Borrar la rama 
+
+antes de borrar la rama vamos a crear un tag
+
+![git tag](Images/Screenshot_41.png)
+
+ahora procedemos a borra la rama
+
+![git branch -d](Images/Screenshot_42.png)
+
+## Listar cambios
+
+para ver los cambios solo tendremos que usar el siguiente código
+
+![git log --graph](Images/Screenshot_46.png)
+
+y esto es lo que veremos
+
+![git log --graph](Images/Screenshot_43.png)
